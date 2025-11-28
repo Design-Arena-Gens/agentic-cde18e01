@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 12px;
+}
+
+.container {
+  width: 100%;
+}
+
+.text-gradient {
+  @apply bg-gradient-to-r from-brand-500 to-purple-500 bg-clip-text text-transparent;
+}
+
